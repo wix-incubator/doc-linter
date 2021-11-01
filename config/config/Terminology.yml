@@ -1,0 +1,17 @@
+extends: Use approved terminology
+message: "Use '%s' instead of '%s'."
+link: https://docs.microsoft.com/en-us/style-guide/word-choice/use-contractions
+level: error
+type: find_replace
+ignorecase: true
+action:
+  name: replace
+swap:
+  'server[- ]?side': backend
+  'client[- ]?side': frontend
+  'back[- ]end': backend
+  'font[- ]end': frontend
+  'third[- ]?party': 3rd-party
+  '(\ba[\.]?m[\.]? )|( A\.M\. )': AM
+  '(\bp[\.]?m[\.]? )|(\bP\.M\. )': PM
+  
