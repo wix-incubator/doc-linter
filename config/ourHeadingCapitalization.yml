@@ -1,0 +1,23 @@
+extends: existence
+message: "Use capitals in headings......"
+link: https://docs.microsoft.com/en-us/style-guide/punctuation/periods
+level: warning
+scope: heading
+type: context_find
+# $title, $sentence, $lower, $upper, or a pattern.
+match: $title
+context: "#.*"
+tokens:
+  - '#.*\b[a-z]'
+exceptions:
+  - 'https'
+  - 'the'
+  - 'for'
+  - 'by'
+  - 'with'
+  - 'of'
+  - 'at'
+  - 'in'
+  - 'to'
+  - 'and'
+
