@@ -1,0 +1,2 @@
+- name: Copycat Action
+  uses: andstor/copycat-action@v3.2.4
