@@ -1,0 +1,21 @@
+extends: existence
+message: "Dont do this stuff: '%s'"
+link: https://docs.microsoft.com/en-us/style-guide/punctuation/periods
+level: error
+scope: all
+type: find
+# $title, $sentence, $lower, $upper, or a pattern.
+match: $title
+tokens:
+  - '[.?!,]{2,}[ \n]'     # double punctuation
+  - '\. [a-z]{1,}'        # don't start a sentence with a lower case.
+  - ' , '                 # space comma space
+  - ' \.'                 # space then period
+  - '[^\n] {2,}[^\.*-+\/]'  # double spaces
+  - ' [A-Z]{2}[a-z]+'     # Double capitals at the start of a sentence
+exceptions:
+  - '\ {2,}-'
+  - ^ {2,}.*
+  - '^ ?\* {2,}\.?'  
+  - '.  \n'               #force new line in MD
+
