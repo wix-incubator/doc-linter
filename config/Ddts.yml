@@ -7,7 +7,7 @@ type: find
 # $title, $sentence, $lower, $upper, or a pattern.
 match: $title
 tokens:
-  - '[.?!,]{2,}[ \n]'     # double punctuation....
+  - '[.?!,]{2,}[ \n]'     # double punctuation
   - '\. [a-z]{1,}'        # don't start a sentence with a lower case.
   - ' , '                 # space comma space
   - ' \.'                 # space then period
