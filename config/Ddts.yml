@@ -18,3 +18,4 @@ exceptions:
   - ^ {2,}.*
   - '^ ?\* {2,}\.?'  
   - '.  \n'               #force new line in MD
+
