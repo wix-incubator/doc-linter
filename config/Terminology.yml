@@ -12,6 +12,6 @@ swap:
   'back[- ]end': backend
   'font[- ]end': frontend
   'third[- ]?party': 3rd-party
-  '((\ba[\.]?m[\.]? )|( A\.M\. ))': AM
+  '(\ba[\.]?m[\.]? )|( A\.M\. )': AM
   '(\bp[\.]?m[\.]? )|(\bP\.M\. )': PM
   
