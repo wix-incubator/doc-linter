@@ -7,4 +7,4 @@ type: find
 # $title, $sentence, $lower, $upper, or a pattern.
 match: $title
 tokens:
-  - (\b.+?\b\s)\1 
+  - (\b.+?\b[\s\,\.]?)\1
