@@ -14,8 +14,7 @@ tokens:
   - 'double spaces': '[^\n] {2,}[^\.*-+\/]'
   - 'Double capitals at the start of a sentence':  ' [A-Z]{2}[a-z]+'
 exceptions:
-  - '\ {2,}-'
+  - '\ {2,}.'
   - ^ {2,}.*
   - '^ ?\* {2,}\.?'  
   - '.  \n'               #force new line in MD
-  - '\ +.'            # ignore multiple spaces after a "//" comment
