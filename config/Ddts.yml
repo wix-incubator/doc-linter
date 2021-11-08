@@ -7,12 +7,12 @@ type: find
 # $title, $sentence, $lower, $upper, or a pattern.
 match: $title
 tokens:
-  - double punctuation: '[.?!,]{2,}[ \n]'
-  - don't start a sentence with a lower case: '\. [a-z]{1,}'
-  - 'space comma space':  ' , ' 
-  - 'space then period': ' \.'
-  - 'double spaces': '[^\n] {2,}[^\.*-+\/]'
-  - 'Double capitals at the start of a sentence':  ' [A-Z]{2}[a-z]+'
+  - Double punctuation: '[.?!,]{2,}[ \n]'
+  - Don't start a sentence with a lower case lettre: '\. [a-z]{1,}'
+  - Space comma space:  ' , ' 
+  - Space then period: ' \.'
+  - Double spaces: '[^\n] {2,}[^\.*-+\/]'
+  - Double capitals at the start of a sentence:  ' [A-Z]{2}[a-z]+'
 exceptions:
   - '\ {2,}-'
   - ^ {2,}.*
