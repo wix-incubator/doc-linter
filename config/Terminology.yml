@@ -11,7 +11,10 @@ swap:
   'client[- ]?side': frontend
   'back[- ]end': backend
   'font[- ]end': frontend
-  'third[- ]?party': 3rd-party
+ # 'third[- ]?party': 3rd-party
+  third-party|third party|3rd party: 3rd-party
   '(\ba[\.]?m[\.]? )|( A\.M\. )': AM
   '(\bp[\.]?m[\.]? )|(\bP\.M\. )': PM
+  ' he | she ': they
+
   

@@ -13,6 +13,7 @@ tokens:
   - Space then period: ' \.'
   - Double spaces: '[^\n] {2,}[^\.*-+\/]'
   - Double capitals at the start of a sentence:  ' [A-Z]{2}[a-z]+'
+  - Passive voice: '[Ii]t is recommended'
 exceptions:
   - '\ {2,}-'
   - ^ {2,}.*

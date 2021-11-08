@@ -20,4 +20,6 @@ exceptions:
   - 'in'
   - 'to'
   - 'and'
+  -	'from'	
+  - 'on'
 
