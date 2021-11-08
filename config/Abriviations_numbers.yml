@@ -1,0 +1,25 @@
+extends: substitution
+message: "Use '%s' instead of '%s'."
+link: https://docs.microsoft.com/en-us/style-guide/word-choice/use-contractions
+level: error
+type: find_replace
+ignorecase: true
+action:
+  name: replace
+swap:
+
+  e\.g\.: for example
+  E\.g\.: For example
+  i\.e\.: that is
+  roundtrip: round trip
+  non functional: non-functional
+  web sites: websites
+  ' [Oo]ne ': 1
+  ' [Tt]wo ': 2
+  ' [Tt]hree ': 3
+  ' [Ff]our ': 4
+  ' [Ff]ive ': 5
+  ' [Ss]ix ': 6
+  ' [Ss]even ': 7
+  ' [Ee]ight ': 8
+  ' [Nn]ine ': 9
