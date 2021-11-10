@@ -16,5 +16,6 @@ swap:
   '(\ba[\.]?m[\.]? )|( A\.M\. )': AM
   '(\bp[\.]?m[\.]? )|(\bP\.M\. )': PM
   ' he | she ': they
+  'api': API
 
   
