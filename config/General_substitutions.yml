@@ -11,3 +11,6 @@ swap:
   'Default:': 'Defaults to:'
   'Default value': 'Defaults to:'
   '(event .*) fire.?\s': trigger 
+  roundtrip: round trip
+  non functional: non-functional
+  web sites: websites
