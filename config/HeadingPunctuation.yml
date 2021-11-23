@@ -3,9 +3,9 @@ message: "Don't use end punctuation in headings."
 link: https://docs.microsoft.com/en-us/style-guide/punctuation/periods
 nonword: true
 level: warning
-#scope: heading
-type: context_find
-context: "^ {0,2}#{1,6} .+"
+scope: heading
+type: find
+#context: "^ {0,2}#{1,6} .+"
 action:
   name: edit
   params:

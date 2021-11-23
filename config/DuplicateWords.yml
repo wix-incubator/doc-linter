@@ -2,7 +2,7 @@ extends: existence
 message: "Double word suspected"
 link: https://docs.microsoft.com/en-us/style-guide/punctuation/periods
 level: warning
-scope: heading
+scope: sentence
 type: find
 # $title, $sentence, $lower, $upper, or a pattern.
 match: $title

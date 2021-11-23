@@ -7,18 +7,20 @@ ignorecase: true
 action:
   name: replace
 swap:
-  ' [Oo]ne ': 1
-  ' [Tt]wo ': 2
-  ' [Tt]hree ': 3
-  ' [Ff]our ': 4
-  ' [Ff]ive ': 5
-  ' [Ss]ix ': 6
-  ' [Ss]even ': 7
-  ' [Ee]ight ': 8
-  ' [Nn]ine ': 9
+  ' [Oo]ne\b': 1
+  ' [Tt]wo\b': 2
+  ' [Tt]hree\b': 3
+  ' [Ff]our\b': 4
+  ' [Ff]ive\b': 5
+  ' [Ss]ix\b': 6
+  ' [Ss]even\b': 7
+  ' [Ee]ight\b': 8
+  ' [Nn]ine\b': 9
   e\.g\.: for example
   E\.g\.: For example
   i\.e\.: that is
   roundtrip: round trip
   non functional: non-functional
   web sites: websites
+exceptions:
+  - 'One of:'

@@ -10,12 +10,12 @@ swap:
   'server[- ]?side': backend
   'client[- ]?side': frontend
   'back[- ]end': backend
-  'font[- ]end': frontend
+  'front[- ]end': frontend
  # 'third[- ]?party': 3rd-party
   third-party|third party|3rd party: 3rd-party
-  '(\ba[\.]?m[\.]? )|( A\.M\. )': AM
-  '(\bp[\.]?m[\.]? )|(\bP\.M\. )': PM
-  ' he | she ': they
-  'api': API
+  '(\ba[\.]?m[\.]?\b)|(\bA\.M[\.]?\b)': AM
+  '(\bp[\.]?m[\.]?\b)|(\bP\.M[\.]?\b)': PM
+  '\bhe\b|\bshe\b': they
+  '\bapi\b': API
 
   

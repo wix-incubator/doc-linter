@@ -6,4 +6,4 @@ level: suggestion
 nonword: true
 type: find
 tokens:
-  - '(?:[^\s,]+,){1,} \w+ (?:and|or) \w+[.?!]'
+  - '(?:[^\s,]+,){1,} \w+ (?:and|or) \w+[.?! ]'

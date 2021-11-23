@@ -3,12 +3,13 @@ message: "Use capitals in headings......"
 link: https://docs.microsoft.com/en-us/style-guide/punctuation/periods
 level: warning
 scope: heading
-type: context_find
+type: find
+#type: context_find
 # $title, $sentence, $lower, $upper, or a pattern.
 match: $title
-context: "#.*"
+#context: "#.*"
 tokens:
-  - '#.*\b[a-z]'
+  - '\b[a-z]+\b'
 exceptions:
   - 'https'
   - 'the'
