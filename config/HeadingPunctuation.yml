@@ -13,6 +13,3 @@ action:
     - '.?!'
 tokens:
   - '[a-zA-Z]([.?!])'
-exceptions:
-  - 'i.e.'
-  - 'e.g.'
