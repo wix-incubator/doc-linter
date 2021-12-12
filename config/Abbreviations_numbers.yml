@@ -7,7 +7,7 @@ ignorecase: true
 action:
   name: replace
 swap:
-  ' [Oo]ne\b': 1
+  '(\b[Oo]ne\b)(?! of:)': 1
   ' [Tt]wo\b': 2
   ' [Tt]hree\b': 3
   ' [Ff]our\b': 4
