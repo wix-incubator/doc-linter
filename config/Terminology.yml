@@ -17,4 +17,3 @@ swap:
   '(\bp[\.]?m[\.]?\b)|(\bP\.M[\.]?\b)': PM
   '\bhe\b|\bshe\b': they
   '\bapi\b': API
-  
