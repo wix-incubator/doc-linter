@@ -1,0 +1,12 @@
+extends: existence
+message: "Style warning: '%s'"
+link: https://docs.microsoft.com/en-us/style-guide/punctuation/periods
+level: warning
+scope: all
+type: find
+# $title, $sentence, $lower, $upper, or a pattern.
+match: $title
+tokens:
+  - Passive voice: '[Ii]t is recommended'
+  - Passive voice: 'should'
+  - Use present tense: '\bwill\b'
