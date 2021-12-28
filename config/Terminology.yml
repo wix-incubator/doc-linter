@@ -16,6 +16,4 @@ swap:
   '(\ba[\.]?m[\.]?\b)|(\bA\.M[\.]?\b)': AM
   '(\bp[\.]?m[\.]?\b)|(\bP\.M[\.]?\b)': PM
   '\bhe\b|\bshe\b': they
-  '[\b ]api[\b ]': API
-
-  
+  '\bapi\b': API
