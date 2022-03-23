@@ -1,0 +1,9 @@
+	extends: substitution
+	message: "TEST: Use '%s' instead of '%s'."
+	level: suggestion
+	type: find_replace
+	ignorecase: true
+	action:
+	name: replace
+	swap:
+	the: da
