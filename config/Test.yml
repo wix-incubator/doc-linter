@@ -4,6 +4,6 @@ level: suggestion
 type: find_replace
 ignorecase: true
 action:
-name: replace
+  name: replace
 swap:
-the: da
+  the: da
