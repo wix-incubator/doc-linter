@@ -7,25 +7,25 @@ ignorecase: true
 action:
   name: replace
 swap:
-  are not: aren't
-  cannot: can't
-  could not: couldn't
-  did not: didn't
-  do not: don't
-  does not: doesn't
-  has not: hasn't
-  have not: haven't
-  how is: how's
-  is not: isn't
-  it is: it's
-  should not: shouldn't
-  that is: that's
-  they are: they're
-  was not: wasn't
-  we are: we're
-  we have: we've
-  were not: weren't
-  what is: what's
-  when is: when's
-  where is: where's
-  will not: won't
+  \b[Aa]re not\b: aren't
+  \bcannot\b: can't
+  \bcould not\b: couldn't
+  \bdid not\b: didn't
+  \bdo not\b: don't
+  \bdoes not\b: doesn't
+  \bhas not\b: hasn't
+  \bhave not\b: haven't
+  \bhow is\b: how's
+  \bis not\b: isn't
+  \bit is\b: it's
+  \bshould not\b: shouldn't
+  \bthat is\b: that's
+  \bthey are\b: they're
+  \bwas not\b: wasn't
+  \bwe are\b: we're
+  \bwe have\b: we've
+  \bwere not\b: weren't
+  \bwhat is\b: what's
+  \bwhen is\b: when's
+  \bwhere is\b: where's
+  \bwill not\b: won't
