@@ -15,6 +15,6 @@ tokens:
   - Double capitals at the start of a sentence:  '\. [A-Z]{2}[a-z]+'
 exceptions:
   - '\ {2,}[-\+]'
-  - ^ {2,}.*
+  - '^ {2,}\*'
   - '^ ?\* {2,}\.?'       beginning of a line in jsdocs
   - '.  \n'               #force new line in MD
