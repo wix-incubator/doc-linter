@@ -16,5 +16,5 @@ tokens:
 exceptions:
   - '\ {2,}[-\+]'
   - '^ {2,}\*'
-  - '^ ?\* {2,}\.?'       beginning of a line in jsdocs
+  - '^ ?\* {2,}\.?'       #beginning of a line in jsdocs
   - '.  \n'               #force new line in MD
