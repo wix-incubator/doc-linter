@@ -11,8 +11,7 @@ tokens:
   - Don't start a sentence with a lower case lettre: '\. [a-z]{1,}'
   - Space comma space:  ' , ' 
   - Space then period: ' \.'
-  - Double1 spaces1: '[^\n\/]  [^\n\.\*\-\+\/]'
-  - Double2 spaces2: '\b  \b'
+  - NDouble spaces: '\b  \b'
   - Double capitals at the start of a sentence:  '\. [A-Z]{2}[a-z]+'
 exceptions:
   - '\ {2,}[-\+]'
